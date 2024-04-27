@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb0bddca-a2c6-42bd-988b-51d9168610d9" name="Changes" comment="footer 구현">
+    <list default="true" id="eb0bddca-a2c6-42bd-988b-51d9168610d9" name="Changes" comment="내비바 클릭 시 스크롤 구현">
+      <change afterPath="$PROJECT_DIR$/ACH/static/img/폰.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACH/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACH/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/static/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACH/templates/ACH/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/templates/ACH/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714195159258</updated>
       <workItem from="1714195160813" duration="5146000" />
-      <workItem from="1714200317319" duration="5178000" />
+      <workItem from="1714200317319" duration="7599000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -165,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714204992363</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="내비바 클릭 시 스크롤 구현">
+      <option name="closed" value="true" />
+      <created>1714205759977</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714205759977</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +189,7 @@
     <MESSAGE value="index &gt; 소개말 섹션 완성" />
     <MESSAGE value="section2 &gt; autoslide 구현" />
     <MESSAGE value="footer 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer 구현" />
+    <MESSAGE value="내비바 클릭 시 스크롤 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="내비바 클릭 시 스크롤 구현" />
   </component>
 </project>

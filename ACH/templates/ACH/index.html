@@ -19,7 +19,7 @@
 
     <!--첫 번째 섹션. 소개말-->
     <section id="introduce">
-        <div class="introduce-container">
+        <div class="introduce">
             <div class="preface">
                 <h1>ACH란?</h1>
                 <p>ACH란, <strong>AI Creations Hub</strong>의 약자로써,<br>생성형 인공지능의 대한 정보와 사용 방법을 제공하고<br>더 좋은 결과물을 낼 수 있도록 공유할 수 있는 커뮤니티형 정보제공 서비스입니다.</p>
@@ -31,7 +31,10 @@
     <!--두 번째 섹션, 인공지능 정보-->
     <section id="ai-info">
         <div class="ai-info">
-            <h1>다양한 생성형AI를<br>ACH에서 만나보세요! 👋</h1>
+            <div class="info-title">
+                <h1>다양한 생성형AI를<br>ACH에서 만나보세요! 👋</h1>
+                <a href="#">👉 더 많은 생성형 AI 종류를 알고싶다면?</a> <!--ai정보.html url을 첨부할 것-->
+            </div>
             <div class="auto-slider">
                 <div class="img-box">
                     <div><img src="{% static 'img/미드저니.png' %}"></div>
@@ -49,7 +52,14 @@
 
     <!--세 번째 섹션, 게시판 기능 소개-->
     <section id="board">
-
+        <div class="board">
+            <img src="{% static 'img/폰.png' %}">
+            <div class="description">
+                <h1>게시판에서 모두와 함께 공유해보세요!</h1>
+                <p>생성형 인공지능은 사용자가 프롬프트를 어떻게 활용하냐에 따라<br>결과물의 매끄러움이 좌우됩니다.<br>서로의 작업물을 감상하여 영감을 얻고 생성형 AI를 더 효율적이게 사용해보거나,<br>나의 작업물도 자랑해보아요!</p>
+                <a href="#">👉 게시판 바로가기</a> <!--게시판.html url을 첨부할 것-->
+            </div>
+        </div>
     </section>
 
     <!--푸터-->
