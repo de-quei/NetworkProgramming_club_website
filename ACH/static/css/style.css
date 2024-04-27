@@ -3,13 +3,19 @@
     padding: 0;
 }
 
+/*상단 내비 바*/
 nav {
-    padding: 30px;
+    padding: 30px 130px 30px 130px;
     background-color: black;
     color: white;
     display: flex;
     align-items: center;
     gap: 150px;
+    /*상단 내비바 탑에 고정*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 nav p {
@@ -24,4 +30,29 @@ nav ul {
 nav ul li {
     list-style: none;
     font-size: 20px;
+}
+
+section {
+    background-color: black;
+    height: 100vh;
+}
+
+/*섹션 1 - 소개말*/
+.introduce-container {
+    color: white;
+    padding: 0 130px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.introduce-container h1 {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.introduce-container p {
+    font-size: 18px;
+    line-height: 30px;
 }
