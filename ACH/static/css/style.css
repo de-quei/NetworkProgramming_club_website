@@ -33,12 +33,12 @@ nav ul li {
 }
 
 section {
-    background-color: black;
     height: 100vh;
 }
 
 /*섹션 1 - 소개말*/
 .introduce-container {
+    background-color: black;
     color: white;
     padding: 0 130px;
     height: 100%;
@@ -56,3 +56,50 @@ section {
     font-size: 18px;
     line-height: 30px;
 }
+
+/*섹션2 - 인공지능 정보*/
+.ai-info {
+    background-color: white;
+    color: black;
+}
+
+.ai-info h1 {
+    padding: 100px 130px 70px 130px;
+    font-size: 40px;
+}
+
+.ai-info .auto-slider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.ai-info .img-box {
+    /*원본과 클론의 총 합*/
+    width: 4080px;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    animation: bannermove 20s linear infinite;
+}
+.img-box > div {
+    margin: 0px -1px 0px 0px;
+}
+
+@keyframes bannermove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
+}
+
+.ai-info .img-box img{
+    width: 500px;
+    height: 350px;
+}
+
