@@ -103,3 +103,36 @@ section {
     height: 350px;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+footer .logo {
+    font-size: 30px;
+}
+
+footer ul{
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+footer ul a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .copyright {
+    color: lightgrey;
+    font-size: 15px;
+}
