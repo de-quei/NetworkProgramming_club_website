@@ -20,3 +20,16 @@ window.addEventListener('DOMContentLoaded', function() {
         }
     }, 5000); // 이미지를 슬라이드할 시간 간격 (여기서는 2초)
 });
+
+document.querySelectorAll('nav ul li a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const target = document.querySelector(this.getAttribute('href'));
+
+        window.scrollTo({
+            top: target.offsetTop,
+            behavior: 'smooth'
+        });
+    });
+});

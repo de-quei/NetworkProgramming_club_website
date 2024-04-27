@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*상단 내비 바*/
 nav {
     padding: 30px 130px 30px 130px;
@@ -30,6 +34,11 @@ nav ul {
 nav ul li {
     list-style: none;
     font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 section {
