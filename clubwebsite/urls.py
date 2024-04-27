@@ -20,7 +20,6 @@ from django.urls import path, include
 import ACH.views
 
 urlpatterns = [
-    path('', ACH.views.show_ai_info_html, name='ai_info'),
     path('ACH/', include('ACH.urls')),
     path('admin/', admin.site.urls),
 ]
