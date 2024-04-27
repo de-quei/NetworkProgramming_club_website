@@ -1,3 +1,27 @@
-h1 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+nav p {
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 80px;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 20px;
 }
