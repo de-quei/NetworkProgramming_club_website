@@ -1,10 +1,30 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/ai_info.css' %}"/>
     <title>AI 정보</title>
 </head>
 <body>
-    <h1>This is Test.</h1>
+    <!--상단 내비 바-->
+    <nav>
+        <a href="{% url "ACH:index" %}"><p>< HOME</p></a>
+    </nav>
+
+    <section>
+
+    </section>
+
+    <!--푸터-->
+    <footer>
+        <p class="logo">ACH</p>
+        <ul>
+            <a href="https://github.com/de-quei/" target="_blank"><li>Github</li></a>
+            <a href="https://instagram.com/de_quei/" target="_blank"><li>Instagram</li></a>
+            <a href="https://velog.io/@de-quei/posts" target="_blank"><li>Velog</li></a>
+        </ul>
+        <p class="copyright">© 2024 김현지. All rights reserved</p>
+    </footer>
 </body>
 </html>

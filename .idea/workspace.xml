@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb0bddca-a2c6-42bd-988b-51d9168610d9" name="Changes" comment="ai_info url 연결">
+    <list default="true" id="eb0bddca-a2c6-42bd-988b-51d9168610d9" name="Changes" comment="링크 잘못 걸었다..">
+      <change afterPath="$PROJECT_DIR$/ACH/static/css/ai_info.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACH/templates/ACH/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/templates/ACH/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACH/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clubwebsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/clubwebsite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACH/templates/ACH/ai_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/templates/ACH/ai_info.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <workItem from="1714195160813" duration="5146000" />
       <workItem from="1714200317319" duration="7876000" />
       <workItem from="1714208258387" duration="68000" />
-      <workItem from="1714216897404" duration="4618000" />
+      <workItem from="1714216897404" duration="5889000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -194,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714219131487</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="링크 잘못 걸었다..">
+      <option name="closed" value="true" />
+      <created>1714221543093</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714221543093</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +220,7 @@
     <MESSAGE value="내비바 클릭 시 스크롤 구현" />
     <MESSAGE value="index.html 완성" />
     <MESSAGE value="ai_info url 연결" />
-    <option name="LAST_COMMIT_MESSAGE" value="ai_info url 연결" />
+    <MESSAGE value="링크 잘못 걸었다.." />
+    <option name="LAST_COMMIT_MESSAGE" value="링크 잘못 걸었다.." />
   </component>
 </project>
