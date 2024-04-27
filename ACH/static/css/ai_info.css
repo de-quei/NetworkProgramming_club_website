@@ -32,6 +32,32 @@ section {
     height: 100vh;
 }
 
+/*섹션1*/
+.preface {
+    background-color: black;
+    color: white;
+    padding: 0 130px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description h1 {
+    font-size: 30px;
+    line-height: 100px;
+}
+
+.description p {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.preface img {
+    width: 300px;
+}
+
+
 /*푸터*/
 footer {
     background-color: black;

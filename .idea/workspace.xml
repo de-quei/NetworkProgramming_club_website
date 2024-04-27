@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb0bddca-a2c6-42bd-988b-51d9168610d9" name="Changes" comment="링크 잘못 걸었다..">
-      <change afterPath="$PROJECT_DIR$/ACH/static/css/ai_info.css" afterDir="false" />
+    <list default="true" id="eb0bddca-a2c6-42bd-988b-51d9168610d9" name="Changes" comment="AI정보 템플릿 제작">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACH/static/css/ai_info.css" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/static/css/ai_info.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACH/templates/ACH/ai_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/templates/ACH/ai_info.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,7 @@
       <workItem from="1714195160813" duration="5146000" />
       <workItem from="1714200317319" duration="7876000" />
       <workItem from="1714208258387" duration="68000" />
-      <workItem from="1714216897404" duration="5889000" />
+      <workItem from="1714216897404" duration="8379000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -201,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714221543093</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="AI정보 템플릿 제작">
+      <option name="closed" value="true" />
+      <created>1714222962776</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714222962776</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +229,7 @@
     <MESSAGE value="index.html 완성" />
     <MESSAGE value="ai_info url 연결" />
     <MESSAGE value="링크 잘못 걸었다.." />
-    <option name="LAST_COMMIT_MESSAGE" value="링크 잘못 걸었다.." />
+    <MESSAGE value="AI정보 템플릿 제작" />
+    <option name="LAST_COMMIT_MESSAGE" value="AI정보 템플릿 제작" />
   </component>
 </project>
