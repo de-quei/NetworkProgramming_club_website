@@ -43,12 +43,12 @@ section {
     justify-content: space-between;
 }
 
-.description h1 {
+.preface .description h1 {
     font-size: 30px;
-    line-height: 100px;
+    margin-bottom: 30px;
 }
 
-.description p {
+.preface .description p {
     font-size: 15px;
     line-height: 30px;
 }
@@ -57,6 +57,21 @@ section {
     width: 300px;
 }
 
+/*섹션2*/
+.info-container {
+    background-color: black;
+    color: white;
+    padding: 30px 130px;
+}
+
+.info-title h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.info-title p {
+    font-size: 18px;
+}
 
 /*푸터*/
 footer {
