@@ -10,9 +10,13 @@
     <!--상단 내비 바-->
     <nav>
         <a href="{% url "ACH:index" %}"><p>< HOME</p></a>
+        <ul>
+            <li><a href="#description">생성형AI란?</a></li>
+            <li><a href="#ai-content">AI정보</a></li>
+        </ul>
     </nav>
 
-    <section>
+    <section id="description">
         <div class="preface">
             <div class="description">
                 <h1>당신이 알고있는 생성형AI는 몇가지인가요?</h1>
@@ -27,7 +31,7 @@
     </section>
 
     <!--AI 정보-->
-    <div class="info-container">
+    <div class="info-container" id="ai-content">
         <div class="info-title">
             <h1>원하는 생성형 AI를 클릭해주세요! 👆️</h1>
             <p><strong>"커서"</strong>를 올리면 AI의 이름과 특징을,<br><strong>"클릭"</strong>하면 더 자세한 특징과 사용방법에 대해 조회할 수 있습니다.</p>

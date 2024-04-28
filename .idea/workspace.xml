@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb0bddca-a2c6-42bd-988b-51d9168610d9" name="Changes" comment="ai_infl &gt; info-title style">
+    <list default="true" id="eb0bddca-a2c6-42bd-988b-51d9168610d9" name="Changes" comment="ai-info &gt; content">
+      <change afterPath="$PROJECT_DIR$/ACH/static/js/ai-info.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACH/static/css/ai_info.css" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/static/css/ai_info.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACH/templates/ACH/ai_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/templates/ACH/ai_info.html" afterDir="false" />
@@ -97,7 +98,7 @@
       <workItem from="1714208258387" duration="68000" />
       <workItem from="1714216897404" duration="9068000" />
       <workItem from="1714264204776" duration="2458000" />
-      <workItem from="1714266988767" duration="3239000" />
+      <workItem from="1714266988767" duration="3643000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -227,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714267485959</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ai-info &gt; content">
+      <option name="closed" value="true" />
+      <created>1714270250923</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714270250923</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +259,7 @@
     <MESSAGE value="AI정보 템플릿 제작" />
     <MESSAGE value="ai_info &gt; section1 완성" />
     <MESSAGE value="ai_infl &gt; info-title style" />
-    <option name="LAST_COMMIT_MESSAGE" value="ai_infl &gt; info-title style" />
+    <MESSAGE value="ai-info &gt; content" />
+    <option name="LAST_COMMIT_MESSAGE" value="ai-info &gt; content" />
   </component>
 </project>
