@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{% static 'css/board.css' %}">
-    <title>Title</title>
+    <title>board_list</title>
 </head>
 <body>
     {{ board_list }}
+    <a href="{% url 'ACH:board_create'%}">+ 작성하기</a>
 </body>
 </html>

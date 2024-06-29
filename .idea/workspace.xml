@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb0bddca-a2c6-42bd-988b-51d9168610d9" name="Changes" comment="create model, superuser">
+    <list default="true" id="eb0bddca-a2c6-42bd-988b-51d9168610d9" name="Changes" comment="template에 데이터 출력 (style X)">
+      <change afterPath="$PROJECT_DIR$/ACH/templates/ACH/board_create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACH/templates/ACH/board.html" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/templates/ACH/board_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACH/templates/ACH/board_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/templates/ACH/board_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACH/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACH/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/views.py" afterDir="false" />
     </list>
@@ -19,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -111,7 +112,7 @@
       <workItem from="1715749624601" duration="232000" />
       <workItem from="1716168756989" duration="172000" />
       <workItem from="1719325895641" duration="619000" />
-      <workItem from="1719467050797" duration="4868000" />
+      <workItem from="1719467050797" duration="5723000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -265,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719639418940</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="template에 데이터 출력 (style X)">
+      <option name="closed" value="true" />
+      <created>1719640526385</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719640526385</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,14 +300,15 @@
     <MESSAGE value="ai-info &gt; content" />
     <MESSAGE value="ai-info &gt; nav bar" />
     <MESSAGE value="create model, superuser" />
-    <option name="LAST_COMMIT_MESSAGE" value="create model, superuser" />
+    <MESSAGE value="template에 데이터 출력 (style X)" />
+    <option name="LAST_COMMIT_MESSAGE" value="template에 데이터 출력 (style X)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ACH/views.py</url>
-          <line>9</line>
+          <line>10</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
