@@ -126,6 +126,10 @@ section {
     height: 350px;
 }
 
+.ai-info .img-box div{
+    height: 350px;
+}
+
 /*섹션3 - 게시판 소개*/
 .board {
     background-color: black;
