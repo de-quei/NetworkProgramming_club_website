@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb0bddca-a2c6-42bd-988b-51d9168610d9" name="Changes" comment="ai-info &gt; nav bar">
-      <change afterPath="$PROJECT_DIR$/ACH/static/css/board.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACH/templates/ACH/board.html" afterDir="false" />
+    <list default="true" id="eb0bddca-a2c6-42bd-988b-51d9168610d9" name="Changes" comment="create model, superuser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACH/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACH/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACH/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACH/templates/ACH/board.html" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/templates/ACH/board_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACH/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACH/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACH/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +111,7 @@
       <workItem from="1715749624601" duration="232000" />
       <workItem from="1716168756989" duration="172000" />
       <workItem from="1719325895641" duration="619000" />
-      <workItem from="1719467050797" duration="3861000" />
+      <workItem from="1719467050797" duration="4868000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -260,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714270710615</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="create model, superuser">
+      <option name="closed" value="true" />
+      <created>1719639418940</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719639418940</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +290,19 @@
     <MESSAGE value="ai_infl &gt; info-title style" />
     <MESSAGE value="ai-info &gt; content" />
     <MESSAGE value="ai-info &gt; nav bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="ai-info &gt; nav bar" />
+    <MESSAGE value="create model, superuser" />
+    <option name="LAST_COMMIT_MESSAGE" value="create model, superuser" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ACH/views.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NetworkProgramming_club_website$models.coverage" NAME="models Coverage Results" MODIFIED="1719639150066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ACH" />
