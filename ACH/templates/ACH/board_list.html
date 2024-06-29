@@ -3,11 +3,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'css/board.css' %}">
-    <title>board_list</title>
+    <title>Board List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #343a40;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #007bff;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .create-button {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .create-button:hover {
+            background-color: #218838;
+        }
+        .image {
+            max-width: 100px;
+            max-height: 100px;
+        }
+    </style>
 </head>
 <body>
-    {{ board_list }}
-    <a href="{% url 'ACH:board_create'%}">+ 작성하기</a>
+    <div class="container">
+        <h1>Board List</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <!--<th>Photo</th>-->
+                    <th>Created Time</th>
+                    <th>Modified Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for board in board_list %}
+                    <tr>
+                        <td>{{ board.title }}</td>
+{#                        <!--<td><img src="{{ board.image.url }}" alt="uploaded image" style="width: 100px; height: 100px; object-fit: cover;"></td>-->#}
+                        <td>{{ board.created_at }}</td>
+                        <td>{{ board.updated_at }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <a class="create-button" href="{% url 'ACH:board_create' %}">+ Create New</a>
+    </div>
 </body>
 </html>
