@@ -2,3 +2,62 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+h1 {
+    text-align: center;
+    color: #343a40;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.create-button {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+.create-button:hover {
+    background-color: #218838;
+}
+.image {
+    max-width: 100px;
+    max-height: 100px;
+}
