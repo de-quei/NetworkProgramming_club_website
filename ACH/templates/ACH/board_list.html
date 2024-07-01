@@ -6,30 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'css/board.css' %}">
     <title>Board List</title>
+    <style>
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .card {
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 16px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+        .card-title {
+            font-size: 1.3em;
+            margin-bottom: 8px;
+        }
+        .card-content {
+            font-size: 1em;
+            margin-bottom: 5px;
+        }
+        .card-dates {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .create-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #000;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .create-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>게시판</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>Title</th>
-                    <!--<th>Photo</th>-->
-                    <th>Created Time</th>
-                    <th>Modified Time</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for board in board_list %}
-                    <tr>
-                        <td>{{ board.title }}</td>
-{#                        <!--<td><img src="{{ board.image.url }}" alt="uploaded image" style="width: 100px; height: 100px; object-fit: cover;"></td>-->#}
-                        <td>{{ board.created_at }}</td>
-                        <td>{{ board.updated_at }}</td>
-                    </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+        {% for board in board_list %}
+            <div class="card">
+                <div class="card-title">{{ board.title }}</div>
+                <div class="card-content">{{ board.content }}</div>
+                <img src="{{ board.image }}" alt="사진" style="margin-bottom: 5px">
+                <div class="card-dates">
+                    <div>작성시간: {{ board.created_at }}</div>
+                </div>
+            </div>
+        {% endfor %}
         <a class="create-button" href="{% url 'ACH:board_create' %}">+ Create New</a>
     </div>
 </body>

@@ -19,29 +19,36 @@ body {
     border-radius: 8px;
     margin-top: 20px;
 }
+
 h1 {
     text-align: center;
     color: #343a40;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
 }
+
 table, th, td {
     border: 1px solid #ddd;
 }
+
 th, td {
     padding: 12px;
     text-align: left;
 }
+
 th {
     background-color: #007bff;
     color: #fff;
 }
+
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
 .create-button {
     display: block;
     width: fit-content;
@@ -54,9 +61,11 @@ tr:nth-child(even) {
     text-decoration: none;
     transition: background 0.3s ease;
 }
+
 .create-button:hover {
     background-color: #218838;
 }
+
 .image {
     max-width: 100px;
     max-height: 100px;
